@@ -381,17 +381,21 @@
           </li>
         </ul>
       </div>
-      <form>
+      <div class="footer-sub">
         <p class="footer-sub-title">Subscribe</p>
-        <div class="footer-sub">
-          <input type="mail" placeholder="E-mail" class="footer-sub-input-text">
-          <button class="footer-sub-button"><span class="footer-sub-button-text">Subscribe</span>
-            <svg width="24" height="20" class="footer-sub-button-icon">
-              <use href="./images/icons.svg#sub-icon"></use>
-            </svg>
-          </button>
+        <div>
+          <form class="footer-form">
+            <label for="email" class="footer-form-label">
+              <input type="email" name="email" placeholder="E-mail" class="footer-sub-input-text" id="email">
+            </label>
+            <button type="submit" class="footer-sub-button">Subscribe
+              <svg width="24" height="20" class="footer-sub-button-icon">
+                <use href="./images/icons.svg#sub-icon"></use>
+              </svg>
+            </button>
+          </form>
         </div>
-      </form>
+      </div>
     </div>
   </footer>
 
@@ -439,7 +443,7 @@
         </div>
         <div class="modal-section-form-text-container">
           <label for="user-comment" class="modal-section-form-label">Comment</label>
-          <textarea name="user-comment" id="modal-section-user-comment" placeholder="Text input"
+          <textarea name="user-comment" id="user-comment" placeholder="Text input"
             class="modal-section-text-area"></textarea>
         </div>
         <div class="checkbox-container">
