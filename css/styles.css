@@ -757,7 +757,7 @@ ul {
   height: 120px;
 }
 
-.input-icon-svg:focus {
+.modal-section-form-input:focus-within+.input-icon-svg {
   fill: #4d5ae5;
 }
 
